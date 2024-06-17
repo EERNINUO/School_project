@@ -1,0 +1,5 @@
+".\Objects\main.obj",
+".\Objects\smg.obj",
+".\Objects\public.obj" 
+TO ".\Objects\数码管秒表" 
+PRINT(".\Listings\数码管秒表.m51") RAMSIZE(256) 
