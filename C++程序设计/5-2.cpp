@@ -23,8 +23,6 @@ int main(){
         s = 0;
         sort(nums);
     }
-    for(uint8_t i=0;i<10;i++){
-        cout<<nums[i]<<',';
-    }
+    for(uint8_t i=0;i<10;i++) cout<<nums[i]<<',';
     return 0;
 }

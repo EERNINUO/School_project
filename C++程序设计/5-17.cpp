@@ -12,9 +12,10 @@ int main(){
     for(uint8_t i=0;i<10;i++){
         scanf("%s %d %d",stu[i].name,&stu[i].number,&stu[i].grade);
     }
-    for(uint8_t i;i<10;i++){
+    cout<< "Student is: " <<endl;
+    for(uint8_t i=0;i<10;i++){
         if((stu[i].grade) <= 60) 
-            printf("Student is: \n %s,%d,%d\n",stu[i].name,stu[i].number,stu[i].grade);
+            printf("%s,%d,%d\n",stu[i].name,stu[i].number,stu[i].grade);
     }
     return 0;
 }
