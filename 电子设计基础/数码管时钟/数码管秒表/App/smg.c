@@ -23,11 +23,14 @@ void smg(u8 dat[])
 			case 6: LSC=0;LSB=0;LSA=1;break;
 			case 7: LSC=0;LSB=0;LSA=0;break;
 		}
-		if(i==1||i==3||i==5){
+		if(i==0){
 			SMG_A_DP_PORT=gsmg_code_dot[dat[i]];//传送段选数据
 		}
-		else{
+		else if(i==1){
 			SMG_A_DP_PORT=gsmg_code[dat[i]];//传送段选数据
+		}
+		else{
+			SMG_A_DP_PORT=0x00;
 		}
 		delay_10us(100);//延时一段时间，等待显示稳定
 		SMG_A_DP_PORT=0x00;//消音

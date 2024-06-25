@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "C:\\Keil_v5\\C51\\INC",
+                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\LED流水灯\\LED流水灯"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

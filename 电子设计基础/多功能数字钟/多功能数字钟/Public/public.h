@@ -1,0 +1,16 @@
+#ifndef _public_H
+#define _public_H
+
+#include "reg52.h"
+
+sbit LED0 = P2^0;
+sbit LED1 = P2^1;
+
+typedef unsigned int u16;	
+typedef unsigned char u8;
+
+
+void delay_10us(u16 ten_us);
+void delay_ms(u16 ms);
+
+#endif

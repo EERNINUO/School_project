@@ -391,6 +391,11 @@
               <FileType>1</FileType>
               <FilePath>.\App\smg.c</FilePath>
             </File>
+            <File>
+              <FileName>beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\beep.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

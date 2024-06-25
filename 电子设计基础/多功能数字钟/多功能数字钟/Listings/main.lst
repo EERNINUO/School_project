@@ -1,0 +1,61 @@
+C51 COMPILER V9.60.7.0   MAIN                                                              06/23/2024 20:18:35 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE User\main.c OPTIMIZE(8,SPEED) BROWSE INCDIR(.\Public;.\App) DEBUG OBJECT
+                    -EXTEND PRINT(.\Listings\main.lst) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include "smg.h"
+   2          #include "public.h"
+   3          #include "beep.h"
+   4          #include "key.h"
+   5          #include "time.h"
+   6          
+   7          static mode = 0;                        //保存当前模式
+   8          
+   9          void time_0_set(){                      //定时器0设置
+  10   1          EA = 1;
+  11   1          ET0 = 1;
+  12   1          TMOD |= 0x01;
+  13   1          TH0 = 0xFC;
+  14   1          TL0 = 0x66;
+  15   1      }
+  16          
+  17          void main(){
+  18   1          time_0_set();
+  19   1          while(1){
+  20   2              key();
+  21   2              smg(times);
+  22   2          }
+  23   1      }
+  24          
+  25          void time() interrupt 1{
+  26   1          static u16 j = 0;   
+  27   1          TH0 = 0xFC;
+  28   1          TL0 = 0x66;
+  29   1          j++;
+  30   1          if(j == 10){
+  31   2              time_change_mode0();
+  32   2              j = 0;
+  33   2          }
+  34   1          TF0 = 0;
+  35   1          TR0 = 1;
+  36   1      }
+  37          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    120    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

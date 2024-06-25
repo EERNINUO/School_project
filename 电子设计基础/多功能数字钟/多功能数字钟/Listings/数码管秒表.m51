@@ -1,0 +1,412 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    06/23/2024  20:18:36  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\main.obj, .\Objects\smg.obj, .\Objects\beep.obj, .\Objects\key.obj, .\Objects\time
+>> .obj, .\Objects\public.obj TO .\Objects\数码管秒表 PRINT (.\Listings\数码管秒表.m51) RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\main.obj (MAIN)
+  .\Objects\smg.obj (SMG)
+  .\Objects\beep.obj (BEEP)
+  .\Objects\key.obj (KEY)
+  .\Objects\time.obj (TIME)
+  .\Objects\public.obj (PUBLIC)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDOPTR)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  .\Objects\数码管秒表 (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     001BH     UNIT         ?DT?SMG
+            DATA    0023H     0009H     UNIT         ?DT?TIME
+            DATA    002CH     0004H     UNIT         ?DT?MAIN
+            DATA    0030H     0004H     UNIT         _DATA_GROUP_
+            IDATA   0034H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     0008H                  *** GAP ***
+            CODE    000BH     0003H     ABSOLUTE     
+            CODE    000EH     00ADH     UNIT         ?PR?_SMG?SMG
+            CODE    00BBH     008CH     UNIT         ?C_C51STARTUP
+            CODE    0147H     0062H     UNIT         ?PR?KEY_SCAN?KEY
+            CODE    01A9H     0059H     UNIT         ?PR?TIME?MAIN
+            CODE    0202H     003BH     UNIT         ?PR?KEY?TIME
+            CODE    023DH     0035H     UNIT         ?C_INITSEG
+            CODE    0272H     002DH     UNIT         ?PR?TIME_CHANGE_MODE0?TIME
+            CODE    029FH     002DH     UNIT         ?C?LIB_CODE
+            CODE    02CCH     001EH     UNIT         ?PR?_DELAY_MS?PUBLIC
+            CODE    02EAH     0015H     UNIT         ?PR?_BEEP?BEEP
+            CODE    02FFH     0011H     UNIT         ?PR?MAIN?MAIN
+            CODE    0310H     000EH     UNIT         ?PR?TIME_0_SET?MAIN
+            CODE    031EH     000BH     UNIT         ?PR?_DELAY_10US?PUBLIC
+            CODE    0329H     0009H     UNIT         ?PR?SHOW?TIME
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\数码管秒表 (MAIN)
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/23/2024  20:18:36  PAGE 2
+
+
+SEGMENT                              DATA_GROUP 
+  +--> CALLED SEGMENT              START    LENGTH
+--------------------------------------------------
+?PR?TIME?MAIN                      -----    -----
+  +--> ?PR?TIME_CHANGE_MODE0?TIME
+
+*** NEW ROOT ***************************************************
+
+?C_C51STARTUP                      -----    -----
+  +--> ?PR?MAIN?MAIN
+  +--> ?C_INITSEG
+
+?PR?MAIN?MAIN                      -----    -----
+  +--> ?PR?TIME_0_SET?MAIN
+  +--> ?PR?KEY?TIME
+  +--> ?PR?_SMG?SMG
+
+?PR?KEY?TIME                       0030H    0001H
+  +--> ?PR?KEY_SCAN?KEY
+
+?PR?KEY_SCAN?KEY                   0031H    0001H
+  +--> ?PR?_DELAY_10US?PUBLIC
+  +--> ?PR?_BEEP?BEEP
+
+?PR?_BEEP?BEEP                     0032H    0001H
+  +--> ?PR?_DELAY_10US?PUBLIC
+
+?PR?_SMG?SMG                       0030H    0004H
+  +--> ?PR?_DELAY_10US?PUBLIC
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\数码管秒表 (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  B:00A8H.7       PUBLIC        EA
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  C:02FFH         PUBLIC        main
+  D:002EH         SYMBOL        mode
+  C:01A9H         PUBLIC        time
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  D:0088H         PUBLIC        TCON
+  B:00A8H.1       PUBLIC        ET0
+  B:0088H.5       PUBLIC        TF0
+  D:008CH         PUBLIC        TH0
+  D:008AH         PUBLIC        TL0
+  B:0088H.4       PUBLIC        TR0
+  D:00C8H         PUBLIC        T2CON
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/23/2024  20:18:36  PAGE 3
+
+
+  C:0310H         PUBLIC        time_0_set
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          TIME_0_SET
+  C:0310H         LINE#         9
+  C:0310H         LINE#         10
+  C:0312H         LINE#         11
+  C:0314H         LINE#         12
+  C:0317H         LINE#         13
+  C:031AH         LINE#         14
+  C:031DH         LINE#         15
+  -------         ENDPROC       TIME_0_SET
+  -------         PROC          MAIN
+  C:02FFH         LINE#         17
+  C:02FFH         LINE#         18
+  C:0302H         LINE#         19
+  C:0302H         LINE#         20
+  C:0305H         LINE#         21
+  C:030EH         LINE#         22
+  -------         ENDPROC       MAIN
+  -------         PROC          TIME
+  -------         DO            
+  D:002CH         SYMBOL        j
+  -------         ENDDO         
+  C:01A9H         LINE#         25
+  C:01C6H         LINE#         27
+  C:01C9H         LINE#         28
+  C:01CCH         LINE#         29
+  C:01D4H         LINE#         30
+  C:01DAH         LINE#         31
+  C:01DDH         LINE#         32
+  C:01E3H         LINE#         33
+  C:01E3H         LINE#         34
+  C:01E5H         LINE#         35
+  C:01E7H         LINE#         36
+  -------         ENDPROC       TIME
+  -------         ENDMOD        MAIN
+
+  -------         MODULE        SMG
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  D:0008H         PUBLIC        gsmg_code
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  C:000EH         PUBLIC        _smg
+  D:0019H         PUBLIC        gsmg_code_dot
+  B:00A0H.2       PUBLIC        LSA
+  B:00A0H.3       PUBLIC        LSB
+  B:00A0H.4       PUBLIC        LSC
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          _SMG
+  D:0030H         SYMBOL        dat
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/23/2024  20:18:36  PAGE 4
+
+
+  -------         DO            
+  D:0033H         SYMBOL        i
+  -------         ENDDO         
+  C:000EH         LINE#         10
+  C:0014H         LINE#         11
+  C:0014H         LINE#         13
+  C:0017H         LINE#         14
+  C:0017H         LINE#         15
+  C:003DH         LINE#         16
+  C:003DH         LINE#         17
+  C:0041H         LINE#         18
+  C:0045H         LINE#         19
+  C:0049H         LINE#         20
+  C:004DH         LINE#         21
+  C:0055H         LINE#         22
+  C:005DH         LINE#         23
+  C:0065H         LINE#         24
+  C:006BH         LINE#         25
+  C:006BH         LINE#         26
+  C:007CH         LINE#         27
+  C:008DH         LINE#         28
+  C:008FH         LINE#         29
+  C:008FH         LINE#         30
+  C:00A4H         LINE#         31
+  C:00A4H         LINE#         32
+  C:00ABH         LINE#         33
+  C:00AEH         LINE#         34
+  C:00BAH         LINE#         35
+  -------         ENDPROC       _SMG
+  -------         ENDMOD        SMG
+
+  -------         MODULE        BEEP
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  B:00A0H.5       PUBLIC        BEEP
+  C:02EAH         PUBLIC        _beep
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          _BEEP
+  D:0032H         SYMBOL        time
+  C:02EAH         LINE#         3
+  C:02ECH         LINE#         4
+  C:02F3H         LINE#         5
+  C:02F5H         LINE#         6
+  C:02FCH         LINE#         7
+  C:02FEH         LINE#         8
+  -------         ENDPROC       _BEEP
+  -------         ENDMOD        BEEP
+
+  -------         MODULE        KEY
+  C:0000H         SYMBOL        _ICE_DUMMY_
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/23/2024  20:18:36  PAGE 5
+
+
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  B:00B0H.1       PUBLIC        KEY1
+  B:00B0H.0       PUBLIC        KEY2
+  B:00B0H.2       PUBLIC        KEY3
+  B:00B0H.3       PUBLIC        KEY4
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  C:0147H         PUBLIC        key_scan
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          KEY_SCAN
+  -------         DO            
+  D:0031H         SYMBOL        key
+  -------         ENDDO         
+  C:0147H         LINE#         4
+  C:0147H         LINE#         6
+  C:0153H         LINE#         7
+  C:015AH         LINE#         8
+  C:0166H         LINE#         9
+  C:0169H         LINE#         10
+  C:016EH         LINE#         11
+  C:0171H         LINE#         12
+  C:0176H         LINE#         13
+  C:0179H         LINE#         14
+  C:017EH         LINE#         15
+  C:0181H         LINE#         16
+  C:0184H         LINE#         17
+  C:0189H         LINE#         18
+  C:0189H         LINE#         19
+  C:0197H         LINE#         20
+  C:0197H         LINE#         21
+  C:01A3H         LINE#         22
+  C:01A6H         LINE#         23
+  C:01A8H         LINE#         24
+  -------         ENDPROC       KEY_SCAN
+  -------         ENDMOD        KEY
+
+  -------         MODULE        TIME
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  D:0023H         PUBLIC        press_number
+  D:0024H         PUBLIC        times
+  C:0272H         PUBLIC        time_change_mode0
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  C:0329H         PUBLIC        show
+  C:0202H         PUBLIC        key
+  B:0088H.5       PUBLIC        TF0
+  B:0088H.4       PUBLIC        TR0
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/23/2024  20:18:36  PAGE 6
+
+
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          TIME_CHANGE_MODE0
+  -------         DO            
+  D:0007H         SYMBOL        i
+  -------         ENDDO         
+  C:0272H         LINE#         9
+  C:0272H         LINE#         11
+  C:0274H         LINE#         12
+  C:0276H         LINE#         13
+  C:027EH         LINE#         14
+  C:0287H         LINE#         15
+  C:0287H         LINE#         16
+  C:0287H         LINE#         17
+  C:0287H         LINE#         18
+  C:0289H         LINE#         19
+  C:0289H         LINE#         20
+  C:0291H         LINE#         21
+  C:0296H         LINE#         22
+  C:029CH         LINE#         23
+  C:029CH         LINE#         24
+  C:029CH         LINE#         25
+  C:029EH         LINE#         26
+  -------         ENDPROC       TIME_CHANGE_MODE0
+  -------         PROC          KEY
+  -------         DO            
+  D:0007H         SYMBOL        key_value
+  -------         DO            
+  D:0030H         SYMBOL        j
+  -------         ENDDO         
+  -------         ENDDO         
+  C:0202H         LINE#         28
+  C:0202H         LINE#         29
+  C:0205H         LINE#         30
+  C:020AH         LINE#         31
+  C:020EH         LINE#         32
+  C:0210H         LINE#         33
+  C:0212H         LINE#         34
+  C:0214H         LINE#         35
+  C:0215H         LINE#         36
+  C:021AH         LINE#         37
+  C:021CH         LINE#         38
+  C:021EH         LINE#         39
+  C:0220H         LINE#         40
+  C:0221H         LINE#         41
+  C:0226H         LINE#         43
+  C:0229H         LINE#         44
+  C:0230H         LINE#         45
+  C:0232H         LINE#         46
+  C:0239H         LINE#         47
+  C:023CH         LINE#         48
+  C:023CH         LINE#         49
+  C:023CH         LINE#         50
+  C:023CH         LINE#         51
+  -------         ENDPROC       KEY
+  -------         PROC          SHOW
+  C:0329H         LINE#         53
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/23/2024  20:18:36  PAGE 7
+
+
+  C:0329H         LINE#         54
+  -------         ENDPROC       SHOW
+  -------         ENDMOD        TIME
+
+  -------         MODULE        PUBLIC
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  C:031EH         PUBLIC        _delay_10us
+  C:02CCH         PUBLIC        _delay_ms
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          _DELAY_10US
+  D:0006H         SYMBOL        ten_us
+  C:031EH         LINE#         3
+  C:031EH         LINE#         4
+  C:0328H         LINE#         5
+  -------         ENDPROC       _DELAY_10US
+  -------         PROC          _DELAY_MS
+  D:0006H         SYMBOL        ms
+  -------         DO            
+  D:0006H         SYMBOL        i
+  D:0004H         SYMBOL        j
+  -------         ENDDO         
+  C:02CCH         LINE#         7
+  C:02CCH         LINE#         9
+  C:02D5H         LINE#         10
+  C:02E9H         LINE#         11
+  -------         ENDPROC       _DELAY_MS
+  -------         ENDMOD        PUBLIC
+
+  -------         MODULE        ?C?CLDOPTR
+  C:029FH         PUBLIC        ?C?CLDOPTR
+  -------         ENDMOD        ?C?CLDOPTR
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW?TIME
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+
+Program Size: data=53.0 xdata=0 code=810
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)

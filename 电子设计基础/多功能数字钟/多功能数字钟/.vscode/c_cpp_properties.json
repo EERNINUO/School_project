@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\多功能数字钟\\多功能数字钟\\Public",
+                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\多功能数字钟\\多功能数字钟\\App",
+                "C:\\Keil_v5\\C51\\INC",
+                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\多功能数字钟\\多功能数字钟\\User"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "smg.h": "c",
+        "public.h": "c",
+        "REG52.H": "cpp",
+        "beep.h": "c",
+        "time.h": "c",
+        "key.h": "c"
+    }
+}
