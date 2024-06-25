@@ -5,6 +5,6 @@
 
 sbit BEEP = P2^5;
 
-void beep(u8 time);
+void beep(u8 time);         //500um
 
 #endif

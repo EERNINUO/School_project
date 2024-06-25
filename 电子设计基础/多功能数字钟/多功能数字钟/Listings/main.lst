@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.7.0   MAIN                                                              06/23/2024 20:18:35 PAGE 1   
+C51 COMPILER V9.60.7.0   MAIN                                                              06/25/2024 21:28:38 PAGE 1   
 
 
 C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
@@ -14,45 +14,111 @@ line level    source
    4          #include "key.h"
    5          #include "time.h"
    6          
-   7          static mode = 0;                        //保存当前模式
-   8          
-   9          void time_0_set(){                      //定时器0设置
-  10   1          EA = 1;
-  11   1          ET0 = 1;
-  12   1          TMOD |= 0x01;
-  13   1          TH0 = 0xFC;
-  14   1          TL0 = 0x66;
-  15   1      }
-  16          
-  17          void main(){
-  18   1          time_0_set();
-  19   1          while(1){
-  20   2              key();
-  21   2              smg(times);
-  22   2          }
-  23   1      }
-  24          
-  25          void time() interrupt 1{
-  26   1          static u16 j = 0;   
-  27   1          TH0 = 0xFC;
-  28   1          TL0 = 0x66;
-  29   1          j++;
-  30   1          if(j == 10){
-  31   2              time_change_mode0();
-  32   2              j = 0;
-  33   2          }
-  34   1          TF0 = 0;
-  35   1          TR0 = 1;
-  36   1      }
-  37          
+   7          u8 mode = 0;                            //保存当前模式
+   8          u8 press_number = 0;                    //保存按键按下的次数
+   9          
+  10          void time_0_set(){                      //定时器0设置
+  11   1          EA = 1;
+  12   1          ET0 = 1;
+  13   1          TMOD |= 0x01;
+  14   1          TH0 = 0xFC;
+  15   1          TL0 = 0x66;
+  16   1      }
+  17          
+  18          u8 not_zero(){
+  19   1          u8 i;
+  20   1          u8 bool = 0;
+  21   1          for(i=0;i<8;i++){
+  22   2              if(times[i] != 0) bool = 1;
+  23   2          }
+  24   1          return bool;
+  25   1      }
+  26          
+  27          void main(){
+  28   1          time_0_set();
+  29   1          while(1){
+  30   2              key();
+  31   2              smg(times);
+  32   2          }
+  33   1      }
+  34          
+  35          void key(){
+  36   1          u8 key_value = key_scan();               //按键键值
+  37   1          if(key_value == 1){
+  38   2              if(press_number == 0){
+  39   3                  TF0 = 0;
+  40   3                  TR0 = 1;
+  41   3                  press_number++;
+  42   3              }
+  43   2              else if(press_number == 1){
+  44   3                  TF0 = 0;
+  45   3                  TR0 = 0;
+  46   3                  press_number++;
+  47   3              }
+  48   2              else if(press_number == 2){
+  49   3                  u8 j;
+  50   3                  for(j=0;j<8;j++){
+  51   4                      times[j] = 0;
+  52   4                      TF0 = 0;
+  53   4                  }
+  54   3                  press_number = 0;
+C51 COMPILER V9.60.7.0   MAIN                                                              06/25/2024 21:28:38 PAGE 2   
+
+  55   3              }
+  56   2          }
+  57   1          else if(key_value == 2) mode = !mode;
+  58   1          else if(key_value == 3){
+  59   2              u8 i = 0;
+  60   2              u8 value = 0;
+  61   2              LED0 = !LED0;
+  62   2              while(i<8){
+  63   3                  value = key_scan();
+  64   3                  if(value == 3) i++;
+  65   3                  if(value == 4){
+  66   4                      times[i]++;
+  67   4                      if(i==2 || i==4){
+  68   5                          if(times[i] == 6) times[i] = 0;
+  69   5                      }
+  70   4                      else{
+  71   5                          if(times[i] == 10) times[i] = 0;
+  72   5                      }
+  73   4                  }
+  74   3                  smg(times);
+  75   3              }
+  76   2          }
+  77   1      }
+  78          
+  79          void time() interrupt 1{
+  80   1          static u16 j = 0;   
+  81   1          TH0 = 0xFC;
+  82   1          TL0 = 0x66;
+  83   1          j++;
+  84   1          if(j == 10){
+  85   2              if(mode == 0) time_change_mode0();
+  86   2              else if(mode == 1) time_change_mode1(7);
+  87   2              j = 0;
+  88   2          }
+  89   1          if(!not_zero() && mode==1){
+  90   2              u8 k;
+  91   2              for(k=0;k<3;k++){
+  92   3                  beep(5000);
+  93   3                  delay_ms(200);
+  94   3                  beep(5000);
+  95   3                  delay_ms(500);
+  96   3              }
+  97   2              TF0 = 0;
+  98   2              TR0 = 0;
+  99   2              press_number = 0;
+ 100   2          }
+ 101   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    120    ----
+   CODE SIZE        =    370    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =      4    ----
+   DATA SIZE        =      4       3
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.

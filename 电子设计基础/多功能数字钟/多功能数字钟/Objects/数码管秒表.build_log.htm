@@ -18,7 +18,7 @@ Hex Converter:   OH51.exe V2.7.0.0
 CPU DLL:         S8051.DLL V3.125.1.0
 Dialog DLL:      DP51.DLL V2.69.0.0 
 <h2>Project:</h2>
-c:\Users\guo\Desktop\code\private\MCU\8051\Project\多功能数字钟\多功能数字钟.uvproj
+c:\Users\guo\Desktop\code\School_project\电子设计基础\多功能数字钟\多功能数字钟\多功能数字钟.uvproj
 Project File Date:  06/23/2024
 
 <h2>Output:</h2>
@@ -30,13 +30,13 @@ compiling key.c...
 compiling time.c...
 compiling public.c...
 linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?SHOW?TIME
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_DELAY_MS?PUBLIC
-Program Size: data=53.0 xdata=0 code=810
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_BEEP?BEEP
+    CALLER1: ?PR?TIME?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=57.0 xdata=0 code=1051
 creating hex file from ".\Objects\数码管秒表"...
-".\Objects\数码管秒表" - 0 Error(s), 2 Warning(s).
+".\Objects\数码管秒表" - 0 Error(s), 1 Warning(s).
 Build Time Elapsed:  00:00:01
 </pre>
 </body>
