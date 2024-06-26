@@ -58,7 +58,6 @@ void key(){
     else if(key_value == 3){
         u8 i = 0;
         u8 value;
-        LED0 = !LED0;
         while(i<8){
             value = key_scan();
             if(value == 3) i++;
