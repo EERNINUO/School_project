@@ -4,6 +4,7 @@
         "public.h": "c",
         "REG52.H": "cpp",
         "time.h": "c",
-        "key.h": "c"
+        "key.h": "c",
+        "beep.h": "c"
     }
 }

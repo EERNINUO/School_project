@@ -2,8 +2,9 @@
 #define LED P2
 
 typedef unsigned char u8;
+typedef unsigned int u16;
 
-void delay(u8 i){
+void delay(u16 i){
 	while(i--);
 }
 
@@ -13,7 +14,11 @@ void main(){
 	while(1){
 		for(i=0;i<8;i++){
 			LED = ~(0x01<<i);
-			delay(5000);
+			delay(20000);
+		}
+		for(i=8;i>0;i--){
+			LED = ~(0x01<<i);
+			delay(20000);
 		}
 	}
 }

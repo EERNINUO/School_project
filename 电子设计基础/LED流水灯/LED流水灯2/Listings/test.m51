@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    06/20/2024  20:08:52  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    06/26/2024  22:32:27  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
@@ -28,9 +28,9 @@ LINK MAP OF MODULE:  .\Objects\test (TEST)
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
             CODE    0000H     0003H     ABSOLUTE     
             CODE    0003H     008CH     UNIT         ?C_C51STARTUP
-            CODE    008FH     0023H     UNIT         ?PR?MAIN?TEST
-            CODE    00B2H     0007H     UNIT         ?PR?_DELAY?TEST
-            CODE    00B9H     0004H     UNIT         ?C_INITSEG
+            CODE    008FH     0019H     UNIT         ?PR?MAIN?TEST
+            CODE    00A8H     000BH     UNIT         ?PR?_DELAY?TEST
+            CODE    00B3H     0004H     UNIT         ?C_INITSEG
 
 
 
@@ -59,11 +59,11 @@ SYMBOL TABLE OF MODULE:  .\Objects\test (TEST)
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
   D:00B0H         PUBLIC        P3
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/20/2024  20:08:52  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  06/26/2024  22:32:27  PAGE 2
 
 
   D:00A8H         PUBLIC        IE
-  C:00B2H         PUBLIC        _delay
+  C:00A8H         PUBLIC        _delay
   D:00B8H         PUBLIC        IP
   C:008FH         PUBLIC        main
   D:0098H         PUBLIC        SCON
@@ -72,20 +72,20 @@ SYMBOL TABLE OF MODULE:  .\Objects\test (TEST)
   D:0008H         PUBLIC        i
   D:00D0H         PUBLIC        PSW
   -------         PROC          _DELAY
-  D:0007H         SYMBOL        i
-  C:00B2H         LINE#         6
-  C:00B2H         LINE#         7
-  C:00B8H         LINE#         8
+  D:0006H         SYMBOL        i
+  C:00A8H         LINE#         8
+  C:00A8H         LINE#         9
+  C:00B2H         LINE#         10
   -------         ENDPROC       _DELAY
   -------         PROC          MAIN
-  C:008FH         LINE#         12
-  C:008FH         LINE#         13
   C:008FH         LINE#         14
-  C:0092H         LINE#         15
-  C:00A2H         LINE#         16
-  C:00A7H         LINE#         17
+  C:008FH         LINE#         15
+  C:0092H         LINE#         16
+  C:0092H         LINE#         17
+  C:009FH         LINE#         18
+  C:00A6H         LINE#         19
   -------         ENDPROC       MAIN
   -------         ENDMOD        TEST
 
-Program Size: data=10.0 xdata=0 code=189
+Program Size: data=10.0 xdata=0 code=183
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

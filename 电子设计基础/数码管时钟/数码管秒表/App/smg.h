@@ -3,7 +3,6 @@
 
 #include "public.h"
 
-
 #define SMG_A_DP_PORT	P0
 
 //数码管位选控制

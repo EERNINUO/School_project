@@ -3,10 +3,8 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\数码管时钟\\数码管秒表\\Public",
-                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\数码管时钟\\数码管秒表\\App",
                 "C:\\Keil_v5\\C51\\INC",
-                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\数码管时钟\\数码管秒表\\User"
+                "c:\\Users\\guo\\Desktop\\code\\School_project\\电子设计基础\\LED流水灯\\LED流水灯3"
             ],
             "defines": [
                 "__C51__",
