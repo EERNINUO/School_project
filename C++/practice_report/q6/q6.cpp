@@ -1,3 +1,12 @@
+/*****************************************
+*
+* GNU GENERAL PUBLIC LICENSE (GPL) v3.0
+* Copyright (c) EERNIINUO
+* which is available at 
+*	 https://github.com/EERNINUO/School_project/tree/main/C++/practice_report/q6
+* All rights reserved.
+*
+*****************************************/
 #include <iostream>
 using namespace std;
 

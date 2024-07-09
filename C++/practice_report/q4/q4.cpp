@@ -2,7 +2,8 @@
 *
 * GNU GENERAL PUBLIC LICENSE (GPL) v3.0
 * Copyright (c) EERNIINUO
-* which is available at https://github.com/EERNINUO/School_project/C++/
+* which is available at 
+*	 https://github.com/EERNINUO/School_project/tree/main/C++/practice_report/q4
 * All rights reserved.
 *
 *****************************************/
