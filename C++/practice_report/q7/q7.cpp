@@ -1,5 +1,4 @@
 /*********************************************
-*
 * The  GNU GENERAL PUBLIC LICENSE (GPL) v3.0
 * Copyright EERNIINUO
 * which is available at 
@@ -7,7 +6,6 @@
 * All rights reserved.
 *
 *********************************************/
-
 #include <iostream>             //包含标准输入输出头文件
 #include <string>               //包含字符串操作头文件
 using namespace std;            //使用命名空间std

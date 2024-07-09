@@ -1,5 +1,4 @@
 /*****************************************
-*
 * GNU GENERAL PUBLIC LICENSE (GPL) v3.0
 * Copyright (c) EERNIINUO
 * which is available at 

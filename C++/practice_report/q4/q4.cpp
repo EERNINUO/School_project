@@ -73,8 +73,10 @@ int main(){
     int input_num = 1;    //输入的数值
 	cout<< "Input 0 to exit." <<endl;//输出提示信息，让用户输入0来退出程序
 	while(input_num != 0){			 //判断是否退出代码
-	cout<< "Please input a even number not less than 6: ";		//输出提示信息，让用户输入一个偶数，且这个偶数大于等于6
+		cout<< "Please input a even number not less than 6: ";		//输出提示信息，让用户输入一个偶数，且这个偶数大于等于6
+		cin>> input_num;
 		if(input_num >= 6 && input_num%2 ==0)gotbah(input_num);	//判断输入的数字是否合法
+		else if(input_num == 0) cout<< "exit" <<endl;
 		else if(input_num < 6) cout<< "Please input a number not less than 6!";
 		else if(input_num%2 != 0) cout<< "Please input a even number!";
 		else{							//输出未知错误信息
@@ -82,7 +84,7 @@ int main(){
 			clean_list();				//清空链表
 			exit(EXIT_FAILURE);			//程序异常退出
 		}
-	clean_list();						//清理链表
+		clean_list();						//清理链表
 	}
     return EXIT_SUCCESS;			    //程序正常退出
 }
