@@ -1,13 +1,13 @@
-/*****************************************
+/*******************************************************************************
 * GNU GENERAL PUBLIC LICENSE (GPL) v3.0
 * Copyright (c) EERNIINUO
 * which is available at 
 *	 https://github.com/EERNINUO/School_project/tree/main/C++/practice_report/q6
 * All rights reserved.
 *
-*****************************************/
-#include <iostream>
-using namespace std;
+********************************************************************************/
+#include <iostream>         // 包含iostream头文件，使用std命名空间
+using namespace std;        // 使用std命名空间
 
                     //学号，课程1，课程2，课程3，课程4，课程5
 int student[4][6] ={{1001,  96,    94,   89,    91,   87},
@@ -15,10 +15,10 @@ int student[4][6] ={{1001,  96,    94,   89,    91,   87},
                     {1003,  18,    42,   37,    22,   49},
                     {1004,  56,    62,   49,    59,   63}};//测试数组
 
-int ave(int arr[4][6],int stu){
-    int sum=arr[1][2]+arr[2][2]+arr[3][2]+arr[4][2];
-    float a = (float)sum/4;
-    return a;
+int ave(int arr[4][6],int stu){             //计算平均值
+    int sum=arr[1][2]+arr[2][2]+arr[3][2]+arr[4][2];// 计算分数的和
+    float a = (float)sum/4;                 // 计算平均值
+    return a;                               // 返回平均值
 }
 
 void find_not_pass(int stu){
