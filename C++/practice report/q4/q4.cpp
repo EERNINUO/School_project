@@ -62,7 +62,9 @@ void gotbah(int number){
 }
 
 int main(){
-    int input_num;
+    int input_num = 1;
+	cout<< "Input 0 to exit." <<endl;
+	while(input_num != 0){
     cout<< "Please input a even number not less than 6: ";
     cin>>input_num;
 		if(input_num >= 6 && input_num%2 ==0)gotbah(input_num);
@@ -74,5 +76,6 @@ int main(){
 			exit(EXIT_FAILURE);
 		}
 	clean_list();
+	}
     return EXIT_SUCCESS;
 }
