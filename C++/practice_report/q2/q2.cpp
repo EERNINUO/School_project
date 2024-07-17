@@ -20,8 +20,8 @@ void num_off(int index[])
         stu_num = 0; // 重置计数器
         for (int i = 0; i < n; i++)// 遍历每一个人
         { 
-            if (index[i] != 0)
-            { // 如果当前人还存活
+            if (index[i] != 0)  // 如果当前人还存活
+            {
                 if (sign == 3)    // 如果这个人报了3
                 {                 
                     index[i] = 0; // 将这个人移除
