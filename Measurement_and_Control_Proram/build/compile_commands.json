@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Linear_regression.dir/includes_CXX.rsp -g -o CMakeFiles\\Linear_regression.dir\\src\\draw.cpp.obj -c C:\\Users\\18902\\Desktop\\code\\School_project\\Measurement_and_Control_Proram\\src\\draw.cpp",
+  "file": "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/src/draw.cpp",
+  "output": "CMakeFiles/Linear_regression.dir/src/draw.cpp.obj"
+},
+{
+  "directory": "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Linear_regression.dir/includes_CXX.rsp -g -o CMakeFiles\\Linear_regression.dir\\src\\matrix.cpp.obj -c C:\\Users\\18902\\Desktop\\code\\School_project\\Measurement_and_Control_Proram\\src\\matrix.cpp",
+  "file": "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/src/matrix.cpp",
+  "output": "CMakeFiles/Linear_regression.dir/src/matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Linear_regression.dir/includes_CXX.rsp -g -o CMakeFiles\\Linear_regression.dir\\main.cpp.obj -c C:\\Users\\18902\\Desktop\\code\\School_project\\Measurement_and_Control_Proram\\main.cpp",
+  "file": "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/main.cpp",
+  "output": "CMakeFiles/Linear_regression.dir/main.cpp.obj"
+}
+]
