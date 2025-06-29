@@ -29,7 +29,6 @@ Matrix &Matrix::operator=(const Matrix &other) {
 }
 
 Matrix &Matrix::operator=(const double *other){
-    assert(rows_ * cols_ == sizeof(other));
     for (int i = 0; i < rows_ * cols_; ++i) {
         data_[i] = other[i];
     }
