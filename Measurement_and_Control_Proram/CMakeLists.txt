@@ -6,6 +6,7 @@ project(Linear_regression
         DESCRIPTION "Linear regression"
         )
 
+set(CMAKE_C_COMPILE_OBJECT "g++")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
 include(FetchContent)

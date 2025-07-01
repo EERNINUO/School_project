@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/main.cpp" "CMakeFiles/Linear_regression.dir/main.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/main.cpp.o.d"
+  "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/draw.cpp" "CMakeFiles/Linear_regression.dir/src/draw.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/src/draw.cpp.o.d"
   "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/matrix.cpp" "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o.d"
   )
 

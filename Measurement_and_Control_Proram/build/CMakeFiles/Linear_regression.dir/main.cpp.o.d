@@ -151,4 +151,153 @@ CMakeFiles/Linear_regression.dir/main.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
  /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/inc/matrix.h \
- /usr/include/c++/13/cassert /usr/include/assert.h
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/inc/draw.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/CircleShape.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /usr/include/c++/13/cassert /usr/include/assert.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /usr/include/c++/13/optional \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/filesystem \
+ /usr/include/c++/13/bits/fs_fwd.h /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/limits \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/codecvt \
+ /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
+ /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/erase_if.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /usr/include/c++/13/chrono \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Time.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/String.inl \
+ /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /usr/include/c++/13/variant \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Event.inl \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Shader.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Glsl.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/Window/Touch.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+ /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+ /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/tr1/special_function_util.h \
+ /usr/include/c++/13/tr1/bessel_function.tcc \
+ /usr/include/c++/13/tr1/beta_function.tcc \
+ /usr/include/c++/13/tr1/ell_integral.tcc \
+ /usr/include/c++/13/tr1/exp_integral.tcc \
+ /usr/include/c++/13/tr1/hypergeometric.tcc \
+ /usr/include/c++/13/tr1/legendre_function.tcc \
+ /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/13/tr1/poly_hermite.tcc \
+ /usr/include/c++/13/tr1/poly_laguerre.tcc \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc

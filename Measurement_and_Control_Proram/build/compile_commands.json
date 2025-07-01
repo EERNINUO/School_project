@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/./inc -isystem /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include -g -o CMakeFiles/Linear_regression.dir/src/draw.cpp.o -c /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/draw.cpp",
+  "file": "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/draw.cpp",
+  "output": "CMakeFiles/Linear_regression.dir/src/draw.cpp.o"
+},
+{
+  "directory": "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build",
   "command": "/usr/bin/c++ -DSFML_STATIC -I/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/./inc -isystem /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src/include -g -o CMakeFiles/Linear_regression.dir/src/matrix.cpp.o -c /home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/matrix.cpp",
   "file": "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/matrix.cpp",
   "output": "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o"

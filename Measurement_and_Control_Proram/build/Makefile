@@ -263,6 +263,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linear_regression.dir/build.make CMakeFiles/Linear_regression.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/draw.o: src/draw.cpp.o
+.PHONY : src/draw.o
+
+# target to build an object file
+src/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linear_regression.dir/build.make CMakeFiles/Linear_regression.dir/src/draw.cpp.o
+.PHONY : src/draw.cpp.o
+
+src/draw.i: src/draw.cpp.i
+.PHONY : src/draw.i
+
+# target to preprocess a source file
+src/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linear_regression.dir/build.make CMakeFiles/Linear_regression.dir/src/draw.cpp.i
+.PHONY : src/draw.cpp.i
+
+src/draw.s: src/draw.cpp.s
+.PHONY : src/draw.s
+
+# target to generate assembly for a file
+src/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linear_regression.dir/build.make CMakeFiles/Linear_regression.dir/src/draw.cpp.s
+.PHONY : src/draw.cpp.s
+
 src/matrix.o: src/matrix.cpp.o
 .PHONY : src/matrix.o
 
@@ -308,6 +332,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/draw.o"
+	@echo "... src/draw.i"
+	@echo "... src/draw.s"
 	@echo "... src/matrix.o"
 	@echo "... src/matrix.i"
 	@echo "... src/matrix.s"

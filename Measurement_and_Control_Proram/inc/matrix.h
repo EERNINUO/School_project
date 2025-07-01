@@ -2,8 +2,6 @@
 #define __MATRIX_H__
 
 #include <iostream>
-#include <stdexcept>
-#include <cassert>
 
 class Matrix {
 private:
@@ -18,64 +16,20 @@ public:
     ~Matrix();    // 析构函数
 
     Matrix &operator=(const Matrix &other);// 赋值运算符重载
-    Matrix &operator=(const double *other);
-    // 索引运算符重载
-    double &operator()(int row, int col) {
-        if (row >= rows_ || col >= cols_) {
-            throw std::out_of_range("Index out of range");
-        }
-        return data_[row * cols_ + col];
-    }
-
-    const double &operator()(int row, int col) const {
-        if (row >= rows_ || col >= cols_) {
-            throw std::out_of_range("Index out of range");
-        }
-        return data_[row * cols_ + col];
-    }
-
-    // 获取矩阵的行数和列数
-    int rows() const { return rows_; }
-    int cols() const { return cols_; }
-
-    // 矩阵加法
-    Matrix operator+(const Matrix &other) const {
-        if (rows_ != other.rows_ || cols_ != other.cols_) {
-            throw std::invalid_argument("Matrix dimensions must match");
-        }
-        Matrix result(rows_, cols_);
-        for (int i = 0; i < rows_ * cols_; ++i) {
-            result.data_[i] = data_[i] + other.data_[i];
-        }
-        return result;
-    }
-
-    // 矩阵乘法
-    Matrix operator*(const Matrix &other) const {
-        if (cols_ != other.rows_) {
-            throw std::invalid_argument("Matrix dimensions must match for multiplication");
-        }
-        Matrix result(rows_, other.cols_);
-        for (int i = 0; i < rows_; ++i) {
-            for (int j = 0; j < other.cols_; ++j) {
-                for (int k = 0; k < cols_; ++k) {
-                    result(i, j) += data_[i * cols_ + k] * other.data_[k * other.cols_ + j];
-                }
-            }
-        }
-        return result;
-    }
-
-    // 打印矩阵
-    void print() const {
-        for (int i = 0; i < rows_; ++i) {
-            for (int j = 0; j < cols_; ++j) {
-                std::cout << (*this)(i, j) << " ";
-            }
-            std::cout << std::endl;
-        }
-    }
+    Matrix &operator=(const double *other);// 赋值运算符重载
+    double &operator()(int row, int col); // 索引运算符重载
+    const double &operator()(int row, int col) const; // 常量索引运算符重载(用于安全的读取元素)
+    Matrix &operator+(const Matrix &other) const;// 矩阵加法
+    Matrix &operator*(const Matrix &other) const;// 矩阵乘法
+    Matrix &operator*(double scalar) const;// 矩阵与标量乘法
+    Matrix T() const;// 矩阵转置
+    Matrix inv() const;// 矩阵求逆
+    Matrix det() const;// 矩阵求行列式 
+    
+    int rows() const { return rows_; }  // 获取矩阵的行数
+    int cols() const { return cols_; }  // 获取矩阵的列数
+    double *data() const { return data_; } // 获取矩阵的数据指针
+    void print() const;// 打印矩阵
 };
-
 
 #endif // __MATRIX_H__

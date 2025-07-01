@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.pdb"
   "CMakeFiles/Linear_regression.dir/main.cpp.o"
   "CMakeFiles/Linear_regression.dir/main.cpp.o.d"
+  "CMakeFiles/Linear_regression.dir/src/draw.cpp.o"
+  "CMakeFiles/Linear_regression.dir/src/draw.cpp.o.d"
   "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o"
   "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o.d"
 )
