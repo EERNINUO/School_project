@@ -12,8 +12,10 @@ int main() {
     Matrix b(2, 1);
     Matrix V(8, 1);
 
-    
+    Matrix C(2, 2);
     Matrix B(2, 1);
+
+    Matrix X_T_X(2, 2);
 
     double Y_read[8];
 
@@ -24,11 +26,13 @@ int main() {
     }
     Y = Y_read;
 
-    Matrix  X_T(X.T() * X);
-    X_T.print();
+    X_T_X = X.T()* X;
+    X_T_X.print();
 
-    Matrix C(X_T.inv()); 
-    B = X_T * Y;
+    double det = X_T_X(0, 0) * X_T_X(1, 1) - X_T_X(0, 1) * X_T_X(1, 0);
+    double c_num[4] = {X_T_X(1, 1) / det, - X_T_X(0, 1) / det, - X_T_X(1, 0) / det, X_T_X(0, 0) / det};
+    C = c_num;
+    B = X.T() * Y;
 
     X.print();
     Y.print();
@@ -42,7 +46,7 @@ int main() {
 
     Figure f2;
     double line_x[] = {5, 50};
-    double line_y[] = {-5046 + 25.2335 * 5, -5.046 + 25.2335 * 50};
+    double line_y[] = {b(0, 0) + b(1, 0) * line_x[0], b(0, 0) + b(1, 0) * line_x[1]};
     f2.drawLine(line_x, line_y);
 
     return 0;

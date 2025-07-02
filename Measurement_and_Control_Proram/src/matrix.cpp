@@ -53,11 +53,11 @@ Matrix &Matrix::operator+(const Matrix &other) const {
     if (rows_ != other.rows_ || cols_ != other.cols_) {
         throw std::invalid_argument("Matrix dimensions must match");
     }
-    static Matrix add_result(rows_, cols_);
+    Matrix* add_result = new Matrix(rows_, cols_);
     for (int i = 0; i < rows_ * cols_; ++i) {
-        add_result.data_[i] = data_[i] + other.data_[i];
+        (*add_result).data_[i] = data_[i] + other.data_[i];
     }
-    return add_result;
+    return *add_result;
 }
 
 Matrix &Matrix::operator*(const Matrix &other) const {
@@ -65,27 +65,27 @@ Matrix &Matrix::operator*(const Matrix &other) const {
     if (cols_ != other.rows_) {
         std::cout << "Matrix dimensions must match" << std::endl;
     }
-    // 创建一个静态矩阵用于存储结果
-    Matrix times_result(rows_, other.cols_);
+    // 创建一个矩阵用于存储结果
+    Matrix* times_result = new Matrix(rows_, other.cols_);
     // 遍历矩阵元素
     for (int i = 0; i < rows_; ++i) {
         for (int j = 0; j < other.cols_; ++j) {
             for (int k = 0; k < cols_; ++k) {
                 // 计算矩阵乘法结果
-                times_result(i, j) += data_[i * cols_ + k] * other.data_[k * other.cols_ + j];
+                (*times_result)(i, j) += data_[i * cols_ + k] * other.data_[k * other.cols_ + j];
             }
         }
     }
     // 返回结果矩阵
-    return times_result;
+    return *times_result;
 }
 
 Matrix &Matrix::operator*(double scalar) const {
-    static Matrix times_result(rows_, cols_);
+    Matrix* times_result = new Matrix(rows_, cols_);
     for (int i = 0; i < rows_ * cols_; ++i) {
-        times_result.data_[i] = data_[i] * scalar;
+        (*times_result).data_[i] = data_[i] * scalar;
     }
-    return times_result;
+    return *times_result;
 }
 
 void Matrix::print() const {
@@ -100,13 +100,13 @@ void Matrix::print() const {
 }
 
 Matrix Matrix::T() const{
-    static Matrix T_result(cols_, rows_);
+    Matrix* T_result = new Matrix(cols_, rows_);
     for (int i = 0; i < rows_; ++i) {
         for (int j = 0; j < cols_; ++j) {
-            T_result(j, i) = (*this)(i, j);
+            (*T_result)(j, i) = (*this)(i, j);
         }
     }
-    return T_result;
+    return *T_result;
 }
 
 
@@ -121,8 +121,8 @@ Matrix Matrix::inv() const {
     for (int i = 0; i < cols_; i++) {
         // 寻找主元
         double pivot = (*this)(i, i);
-        for (int j = 0; j < rows_; j++) {
-            data_[i* rows_ + j] /= pivot;
+        for (int j = 0; j < cols_; j++) {
+            data_[i* cols_ + j] /= pivot;
             inv_mat(i, j) /= pivot;
         }
         for (int j = 0; j < cols_ ; j++) {
