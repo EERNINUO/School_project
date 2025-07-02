@@ -1,0 +1,3 @@
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.dir
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/ogg-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/ogg-subbuild/CMakeFiles/rebuild_cache.dir

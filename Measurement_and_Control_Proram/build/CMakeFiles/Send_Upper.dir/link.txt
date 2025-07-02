@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Send_Upper.dir/objects.a
-C:\PROGRA~1\mingw64\bin\ar.exe qc CMakeFiles\Send_Upper.dir/objects.a @CMakeFiles\Send_Upper.dir\objects1.rsp
-C:\PROGRA~1\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Send_Upper.dir/objects.a -Wl,--no-whole-archive -o C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\bin\Send_Upper.exe -Wl,--out-implib,C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\bin\libSend_Upper.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Send_Upper.dir\linkLibs.rsp

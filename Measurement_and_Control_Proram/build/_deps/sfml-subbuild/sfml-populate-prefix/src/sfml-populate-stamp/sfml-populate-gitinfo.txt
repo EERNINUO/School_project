@@ -3,13 +3,13 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
-source_dir=/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src
-work_dir=/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+source_dir=C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src
+work_dir=C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps
 repository=https://github.com/SFML/SFML.git
 remote=origin
 init_submodules=TRUE
 recurse_submodules=--recursive
 submodules=
 CMP0097=NEW
-
+      

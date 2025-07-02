@@ -98,3 +98,42 @@ void Matrix::print() const {
     }
     std::cout << std::endl;
 }
+
+Matrix Matrix::T() const{
+    Matrix result(cols_, rows_);
+    for (int i = 0; i < rows_; ++i) {
+        for (int j = 0; j < cols_; ++j) {
+            result(j, i) = (*this)(i, j);
+        }
+    }
+    return result;
+}
+
+
+Matrix Matrix::inv() const {
+    // 获取矩阵的大小
+    Matrix inv_mat(cols_, rows_);
+    // 初始化逆矩阵为单位矩阵
+    for (int i = 0; i < cols_ * rows_; i++) {
+        inv_mat.data_[i] = 1;
+    }
+    // 高斯-约当消元法求逆
+    for (int i = 0; i < cols_ * rows_; i++) {
+        // 寻找主元
+        double pivot = (*this)(i, i);
+        for (int j = 0; j < cols_ * rows_; j++) {
+            data_[i* cols_ + j] /= pivot;
+            inv_mat(i, j) /= pivot;
+        }
+        for (int j = 0; j < cols_ * rows_; j++) {
+            if (j != i) {
+                double factor = (*this)(i, i);
+                for (int k = 0; k < cols_ * rows_; k++) {
+                    data_[j* cols_ + k] -= factor * data_[i* cols_ + k];
+                    inv_mat(j, k) -= factor * inv_mat(j, k);
+                }
+            }
+        }
+    }
+    return inv_mat;
+}

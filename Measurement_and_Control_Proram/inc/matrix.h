@@ -24,7 +24,6 @@ public:
     Matrix &operator*(double scalar) const;// 矩阵与标量乘法
     Matrix T() const;// 矩阵转置
     Matrix inv() const;// 矩阵求逆
-    Matrix det() const;// 矩阵求行列式 
     
     int rows() const { return rows_; }  // 获取矩阵的行数
     int cols() const { return cols_; }  // 获取矩阵的列数

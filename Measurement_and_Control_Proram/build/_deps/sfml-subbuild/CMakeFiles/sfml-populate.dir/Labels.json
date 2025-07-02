@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule"
 		},
 		{
-			"file" : "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule"
+			"file" : "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule"
 		}
 	],
 	"target" : 

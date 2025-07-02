@@ -2,8 +2,6 @@
 #include "inc/matrix.h"
 #include "inc/draw.h"
 
-void drawObject_fun();
-
 int main() {
     double a[9] = { 1, 2, 3, 
                 4, 5, 6, 
@@ -17,12 +15,13 @@ int main() {
     Figure f1(800, 600, sf::Color::White);
     f1.drawScatter(a, b, 9);
 
-    printf("end");
+    double a1[2] = {1, 4};
+    double a2[2] = {4, 5};
+
+    Figure f2(800, 600, sf::Color::White);
+    f2.drawLine(a1, a2, sf::Color::Green);
 
     return 0;
 }
 
-void drawObject_fun(){
-    ;
-}
 
