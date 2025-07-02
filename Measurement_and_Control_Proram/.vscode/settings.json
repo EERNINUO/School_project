@@ -1,14 +1,6 @@
 {
     "files.associations": {
-        "new": "cpp",
-        "cmath": "cpp",
-        "array": "cpp",
-        "string": "cpp",
-        "string_view": "cpp",
-        "ranges": "cpp",
-        "span": "cpp",
-        "optional": "cpp",
-        "stdexcept": "cpp",
-        "ostream": "cpp"
+        "chrono": "cpp",
+        "functional": "cpp"
     }
 }

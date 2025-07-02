@@ -1,8 +1,7 @@
 #include "draw.h"
 using namespace sf;
 
-
-sf::Font font; //´´½¨ÎÄ×Ö¶ÔÏó
+sf::Font font; //åˆ›å»ºæ–‡å­—å¯¹è±¡
 
 Figure::Figure(uint16_t Width, uint16_t Height, Color Color, uint16_t Fps){
     width = Width;
@@ -10,7 +9,7 @@ Figure::Figure(uint16_t Width, uint16_t Height, Color Color, uint16_t Fps){
     color = Color;
     fps = Fps;
 
-    if (!font.openFromFile("../fonts/simsun.ttc")) {   //Èç¹û¼ÓÔØÊ§°Ü£¬±¨´í
+    if (!font.openFromFile("../fonts/simsun.ttc")) {   //å¦‚æœåŠ è½½å¤±è´¥ï¼ŒæŠ¥é”™
         printf("load font error\n");
     }
 }
@@ -27,25 +26,25 @@ void Figure::drawScatter(double* xdata, double* ydata, uint16_t size, Color Colo
     double x_min = xdata[0];
     double y_min = ydata[0];
 
-    // ÕÒµ½×î´ó×îĞ¡Öµ
+    // æ‰¾åˆ°æœ€å¤§æœ€å°å€¼
     for(uint16_t i = 1; i < size; i++){ 
         if (xdata[i] > x_max) x_max = xdata[i];
         if (xdata[i] < x_min)  x_min = xdata[i];
         if (ydata[i] > y_max)  y_max = ydata[i];
         if (ydata[i] < y_min)  y_min = ydata[i];
     }
-    x_lens = x_max - x_min; // xÖá³¤¶È
-    y_lens = y_max - y_min; // yÖá³¤¶È
+    x_lens = x_max - x_min; // xè½´é•¿åº¦
+    y_lens = y_max - y_min; // yè½´é•¿åº¦
 
-    // ×ø±êÏµ±ä»»
+    // åæ ‡ç³»å˜æ¢
     auto toPixel = [&](double x, double y) {
         return Vector2f(
-            (x - x_min) * ((double)(width-80 )/ x_lens) + 40, 
-            height - (y - y_min) * ((double)(height-80) / y_lens) - 40
+            (x - x_min) * ((double)(width - 80 )/ x_lens) + 40, 
+            height - (y - y_min) * ((double)(height - 80) / y_lens) - 40
         );
     };
 
-    // »æÖÆ×ø±êÖá
+    // ç»˜åˆ¶åæ ‡è½´
     sf::Vertex axes[] = {
         Vertex{Vector2f(width - 40, height - 40), Color::Black},
         Vertex{Vector2f(40, height - 40), Color::Black},
@@ -81,14 +80,14 @@ void Figure::drawScatter(double* xdata, double* ydata, uint16_t size, Color Colo
     text2.setFillColor(sf::Color::Black);
     text3.setFillColor(sf::Color::Black);
     text4.setFillColor(sf::Color::Black);
-    text1.setPosition(sf::Vector2f(40, height - 40));  //Î»ÖÃ
+    text1.setPosition(sf::Vector2f(40, height - 40));  //ä½ç½®
     text2.setPosition(sf::Vector2f(15, height - 40));
     text3.setPosition(sf::Vector2f(width - 80, height - 40));
     text4.setPosition(sf::Vector2f(15, 80));
     text2.setRotation(degrees(-90));
     text4.setRotation(degrees(-90));
 
-    // »æÖÆÉ¢µã
+    // ç»˜åˆ¶æ•£ç‚¹
     Vertex shapes[size*3];
     for(uint16_t i = 0; i < size; i++){
         Vector2f point = toPixel(xdata[i], ydata[i]);
@@ -127,10 +126,10 @@ void Figure::drawLine(double *xdata, double *ydata, sf::Color Color){
     double y_max = ydata[0]>ydata[1] ? ydata[0] : ydata[1];
     double x_min = xdata[0]<xdata[1] ? xdata[0] : xdata[1];
     double y_min = ydata[0]<ydata[1] ? ydata[0] : ydata[1];
-    double x_lens = x_max - x_min; // xÖá³¤¶È
-    double y_lens = y_max - y_min; // yÖá³¤¶È
+    double x_lens = x_max - x_min; // xè½´é•¿åº¦
+    double y_lens = y_max - y_min; // yè½´é•¿åº¦
 
-    // ×ø±êÏµ±ä»»
+    // åæ ‡ç³»å˜æ¢
     auto toPixel = [&](double x, double y) {
         return Vector2f(
             (x - x_min) * ((double)(width-80 )/ x_lens) + 40, 
@@ -138,7 +137,7 @@ void Figure::drawLine(double *xdata, double *ydata, sf::Color Color){
         );
     };
 
-    // »æÖÆ×ø±êÖá
+    // ç»˜åˆ¶åæ ‡è½´
     sf::Vertex axes[] = {
         Vertex{Vector2f(width - 40, height - 40), Color::Black},
         Vertex{Vector2f(40, height - 40), Color::Black},
@@ -174,14 +173,14 @@ void Figure::drawLine(double *xdata, double *ydata, sf::Color Color){
     text2.setFillColor(sf::Color::Black);
     text3.setFillColor(sf::Color::Black);
     text4.setFillColor(sf::Color::Black);
-    text1.setPosition(sf::Vector2f(40, height - 40));  //Î»ÖÃ
+    text1.setPosition(sf::Vector2f(40, height - 40));  //ä½ç½®
     text2.setPosition(sf::Vector2f(15, height - 40));
     text3.setPosition(sf::Vector2f(width - 80, height - 40));
     text4.setPosition(sf::Vector2f(15, 80));
     text2.setRotation(degrees(-90));
     text4.setRotation(degrees(-90));
 
-    // »æÖÆÖ±Ïß
+    // ç»˜åˆ¶ç›´çº¿
     sf::Vertex line[] = {
         Vertex{toPixel(xdata[0], ydata[0]), Color},
         Vertex{toPixel(xdata[1], ydata[1]), Color},

@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file LICENSE.rst or https://cmake.org/licensing for details.
+# file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 4.1.0-rc1)
+cmake_minimum_required(VERSION 3.28.3)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -18,18 +18,18 @@ project(sfml-populate NONE)
 
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(GIT_VERSION_STRING [==[2.47.1.windows.1]==])
+set(GIT_EXECUTABLE [==[/usr/bin/git]==])
+set(GIT_VERSION_STRING [==[2.43.0]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.47.1.windows.1]==]
+  [==[/usr/bin/git;2.43.0]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(sfml-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/SFML/SFML.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "3.0.1" "GIT_SHALLOW" "ON"
-                    SOURCE_DIR          "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src"
-                    BINARY_DIR          "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://gitcode.com/gh_mirrors/sf/SFML.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "3.0.1" "GIT_SHALLOW" "ON"
+                    SOURCE_DIR          "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-src"
+                    BINARY_DIR          "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

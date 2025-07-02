@@ -4,8 +4,6 @@
 #include <SFML/Graphics.hpp>
 #include <cmath>
 
-
-
 class Figure{
     private:
         uint16_t height;

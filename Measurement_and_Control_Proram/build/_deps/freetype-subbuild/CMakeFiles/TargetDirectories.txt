@@ -1,3 +1,0 @@
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/freetype-subbuild/CMakeFiles/edit_cache.dir
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/build/_deps/freetype-subbuild/CMakeFiles/rebuild_cache.dir

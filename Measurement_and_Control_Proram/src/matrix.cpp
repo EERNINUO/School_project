@@ -53,11 +53,11 @@ Matrix &Matrix::operator+(const Matrix &other) const {
     if (rows_ != other.rows_ || cols_ != other.cols_) {
         throw std::invalid_argument("Matrix dimensions must match");
     }
-    static Matrix result(rows_, cols_);
+    static Matrix add_result(rows_, cols_);
     for (int i = 0; i < rows_ * cols_; ++i) {
-        result.data_[i] = data_[i] + other.data_[i];
+        add_result.data_[i] = data_[i] + other.data_[i];
     }
-    return result;
+    return add_result;
 }
 
 Matrix &Matrix::operator*(const Matrix &other) const {
@@ -66,26 +66,26 @@ Matrix &Matrix::operator*(const Matrix &other) const {
         std::cout << "Matrix dimensions must match" << std::endl;
     }
     // 创建一个静态矩阵用于存储结果
-    static Matrix result(rows_, other.cols_);
+    Matrix times_result(rows_, other.cols_);
     // 遍历矩阵元素
     for (int i = 0; i < rows_; ++i) {
         for (int j = 0; j < other.cols_; ++j) {
             for (int k = 0; k < cols_; ++k) {
                 // 计算矩阵乘法结果
-                result(i, j) += data_[i * cols_ + k] * other.data_[k * other.cols_ + j];
+                times_result(i, j) += data_[i * cols_ + k] * other.data_[k * other.cols_ + j];
             }
         }
     }
     // 返回结果矩阵
-    return result;
+    return times_result;
 }
 
 Matrix &Matrix::operator*(double scalar) const {
-    static Matrix result(rows_, cols_);
+    static Matrix times_result(rows_, cols_);
     for (int i = 0; i < rows_ * cols_; ++i) {
-        result.data_[i] = data_[i] * scalar;
+        times_result.data_[i] = data_[i] * scalar;
     }
-    return result;
+    return times_result;
 }
 
 void Matrix::print() const {
@@ -100,35 +100,35 @@ void Matrix::print() const {
 }
 
 Matrix Matrix::T() const{
-    Matrix result(cols_, rows_);
+    static Matrix T_result(cols_, rows_);
     for (int i = 0; i < rows_; ++i) {
         for (int j = 0; j < cols_; ++j) {
-            result(j, i) = (*this)(i, j);
+            T_result(j, i) = (*this)(i, j);
         }
     }
-    return result;
+    return T_result;
 }
 
 
 Matrix Matrix::inv() const {
     // 获取矩阵的大小
-    Matrix inv_mat(cols_, rows_);
+    static Matrix inv_mat(cols_, rows_);
     // 初始化逆矩阵为单位矩阵
     for (int i = 0; i < cols_ * rows_; i++) {
         inv_mat.data_[i] = 1;
     }
     // 高斯-约当消元法求逆
-    for (int i = 0; i < cols_ * rows_; i++) {
+    for (int i = 0; i < cols_; i++) {
         // 寻找主元
         double pivot = (*this)(i, i);
-        for (int j = 0; j < cols_ * rows_; j++) {
-            data_[i* cols_ + j] /= pivot;
+        for (int j = 0; j < rows_; j++) {
+            data_[i* rows_ + j] /= pivot;
             inv_mat(i, j) /= pivot;
         }
-        for (int j = 0; j < cols_ * rows_; j++) {
+        for (int j = 0; j < cols_ ; j++) {
             if (j != i) {
                 double factor = (*this)(i, i);
-                for (int k = 0; k < cols_ * rows_; k++) {
+                for (int k = 0; k <  rows_; k++) {
                     data_[j* cols_ + k] -= factor * data_[i* cols_ + k];
                     inv_mat(j, k) -= factor * inv_mat(j, k);
                 }
