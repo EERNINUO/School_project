@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-main.a"
-  "../../../lib/libsfml-main.pdb"
+  "../../../lib/libsfml-main-d.a"
+  "../../../lib/libsfml-main-d.pdb"
   "CMakeFiles/sfml-main.dir/MainWin32.cpp.obj"
   "CMakeFiles/sfml-main.dir/MainWin32.cpp.obj.d"
 )

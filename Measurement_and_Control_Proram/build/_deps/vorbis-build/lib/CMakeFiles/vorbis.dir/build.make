@@ -413,35 +413,35 @@ vorbis_OBJECTS = \
 # External object files for target vorbis
 vorbis_EXTERNAL_OBJECTS =
 
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/smallft.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/block.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/envelope.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/window.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lsp.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lpc.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/analysis.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/synthesis.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/psy.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/info.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/floor1.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/floor0.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/res0.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mapping0.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/registry.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/codebook.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/sharedbook.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lookup.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/bitrate.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/vorbisenc.c.obj
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/build.make
-_deps/sfml-build/lib/libvorbis.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library ..\..\sfml-build\lib\libvorbis.a"
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/smallft.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/block.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/envelope.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/window.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lsp.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lpc.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/analysis.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/synthesis.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/psy.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/info.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/floor1.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/floor0.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/res0.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mapping0.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/registry.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/codebook.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/sharedbook.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lookup.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/bitrate.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/vorbisenc.c.obj
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/build.make
+_deps/sfml-build/lib/libvorbisd.a: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library ..\..\sfml-build\lib\libvorbisd.a"
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -P CMakeFiles\vorbis.dir\cmake_clean_target.cmake
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vorbis.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/build: _deps/sfml-build/lib/libvorbis.a
+_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/build: _deps/sfml-build/lib/libvorbisd.a
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/build
 
 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/clean:

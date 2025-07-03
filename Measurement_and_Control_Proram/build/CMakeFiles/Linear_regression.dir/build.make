@@ -146,10 +146,10 @@ C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Li
 C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: CMakeFiles/Linear_regression.dir/src/read_data.cpp.obj
 C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: CMakeFiles/Linear_regression.dir/main.cpp.obj
 C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: CMakeFiles/Linear_regression.dir/build.make
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libsfml-graphics-s.a
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libsfml-window-s.a
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libsfml-system-s.a
-C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libfreetype.a
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libsfml-graphics-s-d.a
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libsfml-window-s-d.a
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libsfml-system-s-d.a
+C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: _deps/sfml-build/lib/libfreetyped.a
 C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: CMakeFiles/Linear_regression.dir/linkLibs.rsp
 C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: CMakeFiles/Linear_regression.dir/objects1.rsp
 C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/bin/Linear_regression.exe: CMakeFiles/Linear_regression.dir/link.txt

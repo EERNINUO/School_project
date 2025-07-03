@@ -6,5 +6,5 @@ CXX_DEFINES = -DSFML_STATIC -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_W
 
 CXX_INCLUDES = @CMakeFiles/sfml-system.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches
+CXX_FLAGS = -g -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches
 

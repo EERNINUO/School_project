@@ -1,2 +1,2 @@
-C:\PROGRA~1\mingw64\bin\ar.exe qc ..\..\sfml-build\lib\libvorbisfile.a CMakeFiles/vorbisfile.dir/vorbisfile.c.obj
-C:\PROGRA~1\mingw64\bin\ranlib.exe ..\..\sfml-build\lib\libvorbisfile.a
+C:\PROGRA~1\mingw64\bin\ar.exe qc ..\..\sfml-build\lib\libvorbisfiled.a CMakeFiles/vorbisfile.dir/vorbisfile.c.obj
+C:\PROGRA~1\mingw64\bin\ranlib.exe ..\..\sfml-build\lib\libvorbisfiled.a

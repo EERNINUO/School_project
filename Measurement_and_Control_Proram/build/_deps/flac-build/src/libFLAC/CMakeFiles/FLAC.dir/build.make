@@ -627,49 +627,49 @@ FLAC_OBJECTS = \
 # External object files for target FLAC
 FLAC_EXTERNAL_OBJECTS =
 
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/version.rc.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/build.make
-_deps/sfml-build/lib/libFLAC.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C static library ..\..\..\sfml-build\lib\libFLAC.a"
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitmath.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitreader.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/bitwriter.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/cpu.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/crc.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse2.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_ssse3.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_sse42.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/fixed_intrin_avx2.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/float.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/format.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_neon.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse2.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_sse41.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_avx2.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/lpc_intrin_fma.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/memory.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_object.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_decoder.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_sse2.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_ssse3.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_intrin_avx2.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder_framing.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/version.rc.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/window.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_encoder_aspect.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_helper.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.obj
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/build.make
+_deps/sfml-build/lib/libFLACd.a: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C static library ..\..\..\sfml-build\lib\libFLACd.a"
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\flac-build\src\libFLAC && $(CMAKE_COMMAND) -P CMakeFiles\FLAC.dir\cmake_clean_target.cmake
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\flac-build\src\libFLAC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FLAC.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-_deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/build: _deps/sfml-build/lib/libFLAC.a
+_deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/build: _deps/sfml-build/lib/libFLACd.a
 .PHONY : _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/build
 
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/clean:

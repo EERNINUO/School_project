@@ -509,41 +509,41 @@ sfml__graphics_OBJECTS = \
 # External object files for target sfml-graphics
 sfml__graphics_EXTERNAL_OBJECTS =
 
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/StencilMode.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
-_deps/sfml-build/lib/libsfml-graphics-s.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library ..\..\..\lib\libsfml-graphics-s.a"
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/StencilMode.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
+_deps/sfml-build/lib/libsfml-graphics-s-d.a: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library ..\..\..\lib\libsfml-graphics-s-d.a"
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\sfml-build\src\SFML\Graphics && $(CMAKE_COMMAND) -P CMakeFiles\sfml-graphics.dir\cmake_clean_target.cmake
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\sfml-build\src\SFML\Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-graphics.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build: _deps/sfml-build/lib/libsfml-graphics-s.a
+_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build: _deps/sfml-build/lib/libsfml-graphics-s-d.a
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
 
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:

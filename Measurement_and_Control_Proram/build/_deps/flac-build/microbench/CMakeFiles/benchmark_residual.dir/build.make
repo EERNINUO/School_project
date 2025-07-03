@@ -112,8 +112,8 @@ benchmark_residual_EXTERNAL_OBJECTS =
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make
-objs/benchmark_residual.exe: _deps/sfml-build/lib/libFLAC.a
-objs/benchmark_residual.exe: _deps/sfml-build/lib/libogg.a
+objs/benchmark_residual.exe: _deps/sfml-build/lib/libFLACd.a
+objs/benchmark_residual.exe: _deps/sfml-build/lib/liboggd.a
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/linkLibs.rsp
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/objects1.rsp
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/link.txt

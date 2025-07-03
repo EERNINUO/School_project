@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-system-s.a"
-  "../../../lib/libsfml-system-s.pdb"
+  "../../../lib/libsfml-system-s-d.a"
+  "../../../lib/libsfml-system-s-d.pdb"
   "CMakeFiles/sfml-system.dir/Clock.cpp.obj"
   "CMakeFiles/sfml-system.dir/Clock.cpp.obj.d"
   "CMakeFiles/sfml-system.dir/Err.cpp.obj"

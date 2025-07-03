@@ -755,57 +755,57 @@ freetype_OBJECTS = \
 # External object files for target freetype
 freetype_EXTERNAL_OBJECTS =
 
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/build.make
-_deps/sfml-build/lib/libfreetype.a: _deps/freetype-build/CMakeFiles/freetype.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C static library ..\sfml-build\lib\libfreetype.a"
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftver.rc.obj
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/build.make
+_deps/sfml-build/lib/libfreetyped.a: _deps/freetype-build/CMakeFiles/freetype.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C static library ..\sfml-build\lib\libfreetyped.a"
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\freetype-build && $(CMAKE_COMMAND) -P CMakeFiles\freetype.dir\cmake_clean_target.cmake
 	cd /d C:\Users\18902\Desktop\code\School_project\Measurement_and_Control_Proram\build\_deps\freetype-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\freetype.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-_deps/freetype-build/CMakeFiles/freetype.dir/build: _deps/sfml-build/lib/libfreetype.a
+_deps/freetype-build/CMakeFiles/freetype.dir/build: _deps/sfml-build/lib/libfreetyped.a
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/build
 
 _deps/freetype-build/CMakeFiles/freetype.dir/clean:

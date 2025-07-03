@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../sfml-build/lib/libogg.a"
-  "../sfml-build/lib/libogg.pdb"
+  "../sfml-build/lib/liboggd.a"
+  "../sfml-build/lib/liboggd.pdb"
   "CMakeFiles/ogg.dir/src/bitwise.c.obj"
   "CMakeFiles/ogg.dir/src/bitwise.c.obj.d"
   "CMakeFiles/ogg.dir/src/framing.c.obj"

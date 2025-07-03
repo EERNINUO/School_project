@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../sfml-build/lib/libvorbis.a"
-  "../../sfml-build/lib/libvorbis.pdb"
+  "../../sfml-build/lib/libvorbisd.a"
+  "../../sfml-build/lib/libvorbisd.pdb"
   "CMakeFiles/vorbis.dir/analysis.c.obj"
   "CMakeFiles/vorbis.dir/analysis.c.obj.d"
   "CMakeFiles/vorbis.dir/bitrate.c.obj"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../sfml-build/lib/libFLAC.a"
-  "../../../sfml-build/lib/libFLAC.pdb"
+  "../../../sfml-build/lib/libFLACd.a"
+  "../../../sfml-build/lib/libFLACd.pdb"
   "CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj"
   "CMakeFiles/FLAC.dir/__/share/win_utf8_io/win_utf8_io.c.obj.d"
   "CMakeFiles/FLAC.dir/bitmath.c.obj"

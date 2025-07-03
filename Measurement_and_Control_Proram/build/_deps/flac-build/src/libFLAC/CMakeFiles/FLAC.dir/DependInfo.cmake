@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_RC
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_RC
   "FLAC__NO_DLL"
+  "FLAC__OVERFLOW_DETECT"
   "HAVE_CONFIG_H"
   "NDEBUG"
   "_DARWIN_C_SOURCE"

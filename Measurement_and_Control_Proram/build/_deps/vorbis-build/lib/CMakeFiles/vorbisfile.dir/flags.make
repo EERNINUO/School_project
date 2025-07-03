@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = @CMakeFiles/vorbisfile.dir/includes_C.rsp
 
-C_FLAGS = -O3 -DNDEBUG
+C_FLAGS = -g
 

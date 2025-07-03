@@ -6,5 +6,5 @@ CXX_DEFINES = -DSFML_STATIC
 
 CXX_INCLUDES = @CMakeFiles/Linear_regression.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG
+CXX_FLAGS = -g
 

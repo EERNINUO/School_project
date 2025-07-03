@@ -4,7 +4,7 @@
 #include "inc/draw.h"
 #include "inc/read_data.h"
 
-#define LINE_CHECK
+#define SHOW_DATA
 
 #define a0_10 3.78
 #define a0_05 5.99
@@ -32,6 +32,8 @@ int main() {
         X(i, 1) = X_read[i];
     }
     Y = Y_read;
+    X.print();
+    Y.print();
 
     X_T_X = X.T()* X;
     double det = X_T_X(0, 0) * X_T_X(1, 1) - X_T_X(0, 1) * X_T_X(1, 0); // 行列式
@@ -79,7 +81,7 @@ int main() {
     uint16_t N = Y.rows();
 
     // 计算F值
-    double F = U / 1 / (Q * (N - 2));
+    double F = (U / 1) / (Q / (N - 2));
 
     sigma2 = Q / (N - 2);
 
