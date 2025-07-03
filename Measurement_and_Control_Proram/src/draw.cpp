@@ -18,8 +18,8 @@ void Figure::drawScatter(double* xdata, double* ydata, uint16_t size, Color Colo
     auto window = RenderWindow(VideoMode({width, height}), "Figure");
     window.setFramerateLimit(fps);
 
-    uint16_t x_lens;
-    uint16_t y_lens;
+    double x_lens;
+    double y_lens;
 
     double x_max = xdata[0];
     double y_max = ydata[0];
@@ -66,6 +66,7 @@ void Figure::drawScatter(double* xdata, double* ydata, uint16_t size, Color Colo
     axea_arrows[5].position = Vector2f(40 + 8.6, 40 + 8.6);
     axea_arrows[5].color = Color::Black;
 
+    // 绘制坐标轴上的刻度
     char x_max_str[10], y_max_str[10], x_min_str[10], y_min_str[10];
     snprintf(x_max_str, sizeof(x_min_str), "%.2f", x_max);
     snprintf(y_max_str, sizeof(y_min_str), "%.2f", y_max);
@@ -145,6 +146,7 @@ void Figure::drawLine(double *xdata, double *ydata, sf::Color Color){
         Vertex{Vector2f(40, 40), Color::Black}
     };
 
+    // 绘制坐标轴箭头
     Vertex axea_arrows[6];
     axea_arrows[0].position = Vector2f(width - 40, height - 40);
     axea_arrows[0].color = Color::Black;

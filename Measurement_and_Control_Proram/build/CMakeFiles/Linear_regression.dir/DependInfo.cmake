@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/main.cpp" "CMakeFiles/Linear_regression.dir/main.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/main.cpp.o.d"
-  "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/draw.cpp" "CMakeFiles/Linear_regression.dir/src/draw.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/src/draw.cpp.o.d"
-  "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/matrix.cpp" "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/src/matrix.cpp.o.d"
-  "/home/guo/Desktop/code/School_project/Measurement_and_Control_Proram/src/read_data.cpp" "CMakeFiles/Linear_regression.dir/src/read_data.cpp.o" "gcc" "CMakeFiles/Linear_regression.dir/src/read_data.cpp.o.d"
+  "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/main.cpp" "CMakeFiles/Linear_regression.dir/main.cpp.obj" "gcc" "CMakeFiles/Linear_regression.dir/main.cpp.obj.d"
+  "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/src/draw.cpp" "CMakeFiles/Linear_regression.dir/src/draw.cpp.obj" "gcc" "CMakeFiles/Linear_regression.dir/src/draw.cpp.obj.d"
+  "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/src/matrix.cpp" "CMakeFiles/Linear_regression.dir/src/matrix.cpp.obj" "gcc" "CMakeFiles/Linear_regression.dir/src/matrix.cpp.obj.d"
+  "C:/Users/18902/Desktop/code/School_project/Measurement_and_Control_Proram/src/read_data.cpp" "CMakeFiles/Linear_regression.dir/src/read_data.cpp.obj" "gcc" "CMakeFiles/Linear_regression.dir/src/read_data.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

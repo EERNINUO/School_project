@@ -50,13 +50,17 @@ const double &Matrix::operator()(int row, int col) const {
 }
 
 Matrix &Matrix::operator+(const Matrix &other) const {
+    // 检查矩阵的行数和列数是否相等
     if (rows_ != other.rows_ || cols_ != other.cols_) {
         throw std::invalid_argument("Matrix dimensions must match");
     }
+    // 创建一个新的矩阵，用于存储相加的结果
     Matrix* add_result = new Matrix(rows_, cols_);
+    // 遍历矩阵的每个元素，进行相加操作
     for (int i = 0; i < rows_ * cols_; ++i) {
         (*add_result).data_[i] = data_[i] + other.data_[i];
     }
+    // 返回相加的结果
     return *add_result;
 }
 
